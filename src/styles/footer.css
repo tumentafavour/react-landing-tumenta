@@ -1,0 +1,19 @@
+.logo-image{
+    width: 200px;
+    height: 200px;
+    transform: scaleX(-1);
+}
+
+.logo-section{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.logo-section-button{
+display: flex;
+gap:20px;
+
+}
