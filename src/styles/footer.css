@@ -12,8 +12,37 @@
     align-items: center;
     text-align: center;
 }
-.logo-section-button{
+.logo-section.logo-section-button{
 display: flex;
 gap:20px;
+
+}
+
+.footer-elements{
+
+display: flex;
+padding: 10px 200px;
+text-decoration: none;
+gap: 70px;
+margin-top: 70pxgit;
+}
+
+li, a{
+
+list-style: none;
+text-decoration: none;
+
+}
+
+.footer-icons{
+
+    display: flex;
+    gap: 10px;
+}
+
+.socials{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 
 }

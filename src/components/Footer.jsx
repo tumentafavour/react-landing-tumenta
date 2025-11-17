@@ -20,6 +20,7 @@ function Footer() {
         </div>
         </div>
 
+          <div className='footer-elements'>
         <div>
         <h4>CLICKGUARD</h4>
         <li><a href='https://www.clickguard.com/why-clickguard'>What differentiates us
@@ -86,37 +87,37 @@ function Footer() {
 
         </div>
 
-        <div>
+        <div className='socials'>
           <h4>Follow us</h4>
-          <div>
-            <FaFacebookF size={24}/>
-            <span>Facebook</span>
+          <div >
+           <li> <a className='footer-icons' href="https://web.facebook.com/ClickGUARD?_rdc=1&_rdr"><FaFacebookF size={24}/>
+            <span>Facebook</span></a></li>
           </div>
           <div>
-            <FaInstagram size={24}/>
-            <span>Instagram</span>
+           <li><a className='footer-icons' href="https://www.instagram.com/clickguard/"> <FaInstagram size={24}/>
+            <span>Instagram</span></a></li>
           </div>
           <div>
-            <FaXTwitter size={24}/>
-            <span>X</span>
+            <li><a className='footer-icons' href="https://x.com/ClickGUARD"><FaXTwitter size={24}/>
+            <span>X</span></a></li>
           </div>
           <div>
-            <FaLinkedinIn size={24}/>
-            <span>LinkedIn</span>
+            <li><a  className='footer-icons' href="https://www.linkedin.com/company/clickguard/"><FaLinkedinIn size={24}/>
+            <span>LinkedIn</span></a></li>
           </div>
           <div>
-            <FaYoutube size={24}/>
-            <span>Youtube</span>
+           <li><a className='footer-icons' href="https://www.youtube.com/c/ClickGUARD"><FaYoutube size={24}/>
+            <span>Youtube</span></a></li> 
           </div>
           <div>
-            <SiThreads size={24}/>
-            <span>Threads</span>
+            <li><a className='footer-icons' href="https://www.threads.com/@clickguard"><SiThreads size={24}/>
+            <span>Threads</span></a></li>
           </div>
 
 
 
-        </div>
-      
+            </div>
+        </div>      
 
       </div>
     
