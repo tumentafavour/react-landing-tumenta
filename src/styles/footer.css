@@ -14,7 +14,7 @@
 }
 .logo-section.logo-section-button{
 display: flex;
-gap:20px;
+gap:50px;
 
 }
 
@@ -24,7 +24,7 @@ display: flex;
 padding: 10px 200px;
 text-decoration: none;
 gap: 70px;
-margin-top: 70pxgit;
+margin-top: 70px;
 }
 
 li, a{
@@ -44,5 +44,20 @@ text-decoration: none;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
+
+}
+
+
+.big-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first-elm{
+
+    display: flex;
+    width: 1000px;
+    height: 200px;
 
 }

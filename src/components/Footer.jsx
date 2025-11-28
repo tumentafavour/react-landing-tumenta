@@ -117,9 +117,13 @@ function Footer() {
 
 
             </div>
-        </div>      
-
       </div>
+
+       <div className='big-logo'>
+              <img className='first-elm' src="/clickguard.svg" alt="logo" />
+              <p className='second-elm'>© 2025 ClickGUARD, All rights reserved.</p>
+            </div>
+        </div>      
     
   )
 }
