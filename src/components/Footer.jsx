@@ -15,8 +15,8 @@ function Footer() {
         
         <div className='logo-section-button'>
 
-          <button >Book a demoo</button>
-          <button>Start 7-day free trial</button>
+          <button className='button1' >Book a demo</button>
+          <button className='button1'>Start 7-day free trial</button>
         </div>
         </div>
 

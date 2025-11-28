@@ -12,9 +12,10 @@
     align-items: center;
     text-align: center;
 }
-.logo-section.logo-section-button{
+.logo-section-button{
 display: flex;
-gap:50px;
+gap:20px;
+height: 40px;
 
 }
 
@@ -59,5 +60,10 @@ justify-content: space-between;
     display: flex;
     width: 1000px;
     height: 200px;
+
+}
+.button1{
+border-radius: 60px;
+padding: 10px;
 
 }
